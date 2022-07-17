@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BFC15CA2614A965ED36173 /* Pods_StudySmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FE40FB8E0D032EF44D45DE /* Pods_StudySmart.framework */; };
+		702A3183288152FA00024621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A3182288152FA00024621 /* AppDelegate.swift */; };
+		702A3185288152FA00024621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A3184288152FA00024621 /* SceneDelegate.swift */; };
+		702A3187288152FA00024621 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A3186288152FA00024621 /* OptionView.swift */; };
+		702A318A288152FA00024621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702A3188288152FA00024621 /* Main.storyboard */; };
+		702A318D288152FA00024621 /* StudySmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 702A318B288152FA00024621 /* StudySmart.xcdatamodeld */; };
+		702A318F288152FD00024621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702A318E288152FD00024621 /* Assets.xcassets */; };
+		702A3192288152FD00024621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702A3190288152FD00024621 /* LaunchScreen.storyboard */; };
+		702A319A2881533D00024621 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A31992881533D00024621 /* NoteTableView.swift */; };
+		702A319C2881534900024621 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A319B2881534900024621 /* NoteDetailView.swift */; };
+		702A319E288154E100024621 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A319D288154E100024621 /* NoteCell.swift */; };
+		702A31A02881566300024621 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A319F2881566300024621 /* Note.swift */; };
+		702A31A228815D5200024621 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A31A128815D5200024621 /* RegisterView.swift */; };
+		702A31A428815D5F00024621 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A31A328815D5F00024621 /* QuizView.swift */; };
+		702A31A6288161B800024621 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A31A5288161B800024621 /* Question.swift */; };
+		702A31A82881654700024621 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A31A72881654700024621 /* HomeView.swift */; };
+		704165702881901600CC59E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7041656F2881901600CC59E3 /* GoogleService-Info.plist */; };
+		704165732881CA8800CC59E3 /* ZenQuotesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704165722881CA8800CC59E3 /* ZenQuotesResponse.swift */; };
+		704165752881CA9700CC59E3 /* ZenQuotesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704165742881CA9700CC59E3 /* ZenQuotesClient.swift */; };
+		70BE3DE02882911C00A7EF46 /* QuizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE3DDF2882911C00A7EF46 /* QuizCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10D70200B2EA71AF1819ECDC /* Pods-StudySmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudySmart.debug.xcconfig"; path = "Target Support Files/Pods-StudySmart/Pods-StudySmart.debug.xcconfig"; sourceTree = "<group>"; };
+		46EEA1FA843D1F41E7E9F52D /* Pods-StudySmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudySmart.release.xcconfig"; path = "Target Support Files/Pods-StudySmart/Pods-StudySmart.release.xcconfig"; sourceTree = "<group>"; };
+		65FE40FB8E0D032EF44D45DE /* Pods_StudySmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudySmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702A317F288152FA00024621 /* StudySmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702A3182288152FA00024621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702A3184288152FA00024621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		702A3186288152FA00024621 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		702A3189288152FA00024621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702A318C288152FA00024621 /* StudySmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudySmart.xcdatamodel; sourceTree = "<group>"; };
+		702A318E288152FD00024621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702A3191288152FD00024621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702A3193288152FD00024621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702A31992881533D00024621 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		702A319B2881534900024621 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		702A319D288154E100024621 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		702A319F2881566300024621 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		702A31A128815D5200024621 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		702A31A328815D5F00024621 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		702A31A5288161B800024621 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		702A31A72881654700024621 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7041656F2881901600CC59E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		704165722881CA8800CC59E3 /* ZenQuotesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenQuotesResponse.swift; sourceTree = "<group>"; };
+		704165742881CA9700CC59E3 /* ZenQuotesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenQuotesClient.swift; sourceTree = "<group>"; };
+		70BE3DDF2882911C00A7EF46 /* QuizCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702A317C288152FA00024621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BFC15CA2614A965ED36173 /* Pods_StudySmart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B1506768208035FD560B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65FE40FB8E0D032EF44D45DE /* Pods_StudySmart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		702A3176288152FA00024621 = {
+			isa = PBXGroup;
+			children = (
+				702A3181288152FA00024621 /* StudySmart */,
+				702A3180288152FA00024621 /* Products */,
+				B3FEFD0537AFCA4BEE76CC56 /* Pods */,
+				45B1506768208035FD560B9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		702A3180288152FA00024621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702A317F288152FA00024621 /* StudySmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702A3181288152FA00024621 /* StudySmart */ = {
+			isa = PBXGroup;
+			children = (
+				702A3193288152FD00024621 /* Info.plist */,
+				7041656F2881901600CC59E3 /* GoogleService-Info.plist */,
+				7041657B2881D42600CC59E3 /* SupportingFiles */,
+				704165782881D3E800CC59E3 /* Models */,
+				704165762881D3AC00CC59E3 /* Controllers */,
+				7041657C2881D43D00CC59E3 /* Views */,
+			);
+			path = StudySmart;
+			sourceTree = "<group>";
+		};
+		702A31A9288184B100024621 /* Notes Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				702A319D288154E100024621 /* NoteCell.swift */,
+				702A31992881533D00024621 /* NoteTableView.swift */,
+				702A319B2881534900024621 /* NoteDetailView.swift */,
+			);
+			path = "Notes Controllers";
+			sourceTree = "<group>";
+		};
+		704165712881903800CC59E3 /* Signing Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				702A31A72881654700024621 /* HomeView.swift */,
+				702A31A128815D5200024621 /* RegisterView.swift */,
+			);
+			path = "Signing Controllers";
+			sourceTree = "<group>";
+		};
+		704165762881D3AC00CC59E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				702A3186288152FA00024621 /* OptionView.swift */,
+				704165712881903800CC59E3 /* Signing Controllers */,
+				702A31A328815D5F00024621 /* QuizView.swift */,
+				70BE3DDF2882911C00A7EF46 /* QuizCell.swift */,
+				702A31A9288184B100024621 /* Notes Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		704165772881D3C900CC59E3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				702A319F2881566300024621 /* Note.swift */,
+				702A318B288152FA00024621 /* StudySmart.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		704165782881D3E800CC59E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7041657A2881D40F00CC59E3 /* QuizModel */,
+				704165792881D3FB00CC59E3 /* Quotes */,
+				704165772881D3C900CC59E3 /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		704165792881D3FB00CC59E3 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				704165722881CA8800CC59E3 /* ZenQuotesResponse.swift */,
+				704165742881CA9700CC59E3 /* ZenQuotesClient.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		7041657A2881D40F00CC59E3 /* QuizModel */ = {
+			isa = PBXGroup;
+			children = (
+				702A31A5288161B800024621 /* Question.swift */,
+			);
+			path = QuizModel;
+			sourceTree = "<group>";
+		};
+		7041657B2881D42600CC59E3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				702A3182288152FA00024621 /* AppDelegate.swift */,
+				702A3184288152FA00024621 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7041657C2881D43D00CC59E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				702A3188288152FA00024621 /* Main.storyboard */,
+				702A318E288152FD00024621 /* Assets.xcassets */,
+				702A3190288152FD00024621 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3FEFD0537AFCA4BEE76CC56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D70200B2EA71AF1819ECDC /* Pods-StudySmart.debug.xcconfig */,
+				46EEA1FA843D1F41E7E9F52D /* Pods-StudySmart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702A317E288152FA00024621 /* StudySmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702A3196288152FD00024621 /* Build configuration list for PBXNativeTarget "StudySmart" */;
+			buildPhases = (
+				9B23D6D7AFF5465552FA008B /* [CP] Check Pods Manifest.lock */,
+				702A317B288152FA00024621 /* Sources */,
+				702A317C288152FA00024621 /* Frameworks */,
+				702A317D288152FA00024621 /* Resources */,
+				B2DE751E8227AD1CF28B5EF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudySmart;
+			productName = StudySmart;
+			productReference = 702A317F288152FA00024621 /* StudySmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702A3177288152FA00024621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					702A317E288152FA00024621 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 702A317A288152FA00024621 /* Build configuration list for PBXProject "StudySmart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702A3176288152FA00024621;
+			productRefGroup = 702A3180288152FA00024621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702A317E288152FA00024621 /* StudySmart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702A317D288152FA00024621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702A3192288152FD00024621 /* LaunchScreen.storyboard in Resources */,
+				704165702881901600CC59E3 /* GoogleService-Info.plist in Resources */,
+				702A318F288152FD00024621 /* Assets.xcassets in Resources */,
+				702A318A288152FA00024621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B23D6D7AFF5465552FA008B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudySmart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DE751E8227AD1CF28B5EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudySmart/Pods-StudySmart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudySmart/Pods-StudySmart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudySmart/Pods-StudySmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702A317B288152FA00024621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704165732881CA8800CC59E3 /* ZenQuotesResponse.swift in Sources */,
+				702A31A228815D5200024621 /* RegisterView.swift in Sources */,
+				702A3187288152FA00024621 /* OptionView.swift in Sources */,
+				70BE3DE02882911C00A7EF46 /* QuizCell.swift in Sources */,
+				702A3183288152FA00024621 /* AppDelegate.swift in Sources */,
+				702A3185288152FA00024621 /* SceneDelegate.swift in Sources */,
+				704165752881CA9700CC59E3 /* ZenQuotesClient.swift in Sources */,
+				702A31A02881566300024621 /* Note.swift in Sources */,
+				702A319C2881534900024621 /* NoteDetailView.swift in Sources */,
+				702A319A2881533D00024621 /* NoteTableView.swift in Sources */,
+				702A31A428815D5F00024621 /* QuizView.swift in Sources */,
+				702A319E288154E100024621 /* NoteCell.swift in Sources */,
+				702A31A82881654700024621 /* HomeView.swift in Sources */,
+				702A31A6288161B800024621 /* Question.swift in Sources */,
+				702A318D288152FA00024621 /* StudySmart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		702A3188288152FA00024621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702A3189288152FA00024621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702A3190288152FD00024621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702A3191288152FD00024621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702A3194288152FD00024621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		702A3195288152FD00024621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702A3197288152FD00024621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D70200B2EA71AF1819ECDC /* Pods-StudySmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BUV339KR3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudySmart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvel.StudySmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		702A3198288152FD00024621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EEA1FA843D1F41E7E9F52D /* Pods-StudySmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BUV339KR3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudySmart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvel.StudySmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702A317A288152FA00024621 /* Build configuration list for PBXProject "StudySmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702A3194288152FD00024621 /* Debug */,
+				702A3195288152FD00024621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702A3196288152FD00024621 /* Build configuration list for PBXNativeTarget "StudySmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702A3197288152FD00024621 /* Debug */,
+				702A3198288152FD00024621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		702A318B288152FA00024621 /* StudySmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				702A318C288152FA00024621 /* StudySmart.xcdatamodel */,
+			);
+			currentVersion = 702A318C288152FA00024621 /* StudySmart.xcdatamodel */;
+			path = StudySmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 702A3177288152FA00024621 /* Project object */;
+}
