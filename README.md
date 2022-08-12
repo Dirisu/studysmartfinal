@@ -16,4 +16,5 @@ The features implemented:
 ## REQUIREMENTS
 * Xcode 13
 * IOS 13.0
+* Swift 5
 
